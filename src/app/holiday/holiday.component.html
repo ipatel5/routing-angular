@@ -1,0 +1,7 @@
+
+
+
+
+<mat-list *ngFor="let k of keys; let i = index">
+        <a [routerLink]="['/holidaydetail',i]" >{{k | date:'longDate'}}</a>
+</mat-list>
